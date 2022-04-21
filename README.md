@@ -38,7 +38,7 @@ primary.podSecurityContext.enabled|Enable security context|integer|TRUE|
 |primary.persistence.size|PVC Storage Request for PostgreSQL volume|integer|8Gi|
 |Secret.auth.postgresPassword|Password for the "postgres" admin user|string|mypassword|
 
-###Volume Permissions parameters
+### Volume Permissions parameters
 
 |Parameter|Description|Type|Default|
 |---------|-----------|----|-------|
