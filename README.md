@@ -12,9 +12,9 @@ You can configure the following:
 |---------|-----------|----|-------|
 |image.pullPolicy|PostgreSQL image pull policy|string|IfNotPresent|
 |containerPorts.postgresql|PostgreSQL|container|port|integer|5432|
-|auth.postgresPassword|Password for the 'postgres' admin user|string|PHVHdqzrMb9s|
-|auth.password	Password| for the custom user to create|string|KjMfdzcjkp3K|
-|auth.replicationPassword|Password for the replication user|string|zTqmtcf7CqLc|
+|auth.postgresPassword|Password for the 'postgres' admin user|string|mypassword|
+|auth.password	Password| for the custom user to create|string|admin123|
+|auth.replicationPassword|Password for the replication user|string|123admin|
 
 ### PostgreSQL Primary parameters
 
